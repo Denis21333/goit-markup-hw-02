@@ -1,3 +1,78 @@
 ul{
     list-style: none;
 }
+
+
+<!--Шапка проекта Webstudio-->
+ .logo:hover,
+ .logo:active
+ {
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.20;
+color: #2196F3; 
+}
+
+.logo-color
+{
+    color: #2196F3;
+}
+
+
+.content :hover,
+.content:active 
+{  
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+color: #2196F3;
+
+}
+ 
+.email :hover,
+.email :active
+ {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #2196F3;
+    
+}
+
+.telephone:hover,
+.telephone:active
+{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+    
+}
+
+<!--Секция 1--> 
+.title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.5;
+text-align: center;
+text-transform: uppercase;
+color: #ffffff;
+}
+
+.service:hover
+.service:active
+{
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+
+}
+
+
+
