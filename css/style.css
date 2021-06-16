@@ -1,38 +1,146 @@
 :root {
-    --primary-text-coler: #212121; 
-    --title-text-coler: #757575;
-    --accent-coler: #2196F3;
-    --primary-withe-color : #ffffff;
-}
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: #2196f3;
+    --primary-bg-color: #ffffff;
+    --primary-bg-color-filter: #f5f4fa;
+    --prinary-font-family: "Roboto", sant-serif;
+  }
+  
+  body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: var(--prinary-font-family);
+  }
 
-
-ul{
+  ul{
     list-style: none;
-}
+   }
+ 
 
-body{
-    background-color:#FFFFFF ;
-    color: var(--primary-text-coler);
-}
-    
-
-<!--Шапка проекта Webstudio-->
-.logo{
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #2196F3;
-}
-
-.logo:hover
-.logo:focus{
-color: #2196F3; 
-}
-
+/* Шапка проекта Webstudio*/
 .logo-color{
-color:  #2196F3; 
+color: var( --accent-color);
 }
 
+.logo{
+  color: #000000;
+  font-family: "Raleway", sant-serif;
+  font-weight: bold;
+} 
+
+.site-nav .site-link.current {
+    color: var(--accent-color);
+
+  }
+
+  .site-nav .site-link {
+    color: var(--secondary-text-color);
+  }
+  
+  .site-nav .site-link:hover,
+  .site-nav .site-link:focus {
+    color: var(--accent-color);
+  }
+
+  
+  .contact-link {
+    color: var(--primary-text-color);
+  }
+  
+  .contact-link:hover,
+  .contact-link:focus {
+    color: var(--accent-color);
+  }
+
+  /* Секция героя */
+
+  .button {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    
+  }
+  
+  .button:hover
+  .button:focus{
+    background-color: #188ce8;
+  }
+
+  /* секция будушего */
+  
+  
+.features-list .title {
+ color: var(--secondary-text-color);
+ 
+}
+
+
+/* cекция */
+
+.section .section-title {
+    color: var(--secondary-text-color);
+    text-align: center
+}
+
+/* Командная секция */
+
+.team-list .title {
+    color: var(--secondary-text-color);
+  }
+  /* Футер */
+ .footer{
+background-color:#2F303A; ;
+}
+
+  .footer-link {
+    color: var(--primary-text-color);
+  }
+  
+  .footer-link:hover,
+  .footer-link:focus {
+    color: var(--accent-color);
+  }
+  
+  .footer .address {
+    font-style: normal;
+  }
+
+  /* портфолио */
+  
+.filter-btn {
+  background-color: var(--primary-bg-color-filter);
+  color: var(--secondary-text-color);
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+
+.work-list .title {
+  color: #000000;}
+
+  .filter .filter-btn.current{
+    background-color: var(--accent-color) ;
+  }
+  
+/* оформление текста */
+  .hero-title {
+font-family: var(--prinary-font-family);   
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+color: #FFFFFF;
+}
+
+.hero {
+  background-color: #2F303A;;
+}
+
+.title {
+  text-align: center
+}
+ 
+.profession {
+  text-align: center
+}
