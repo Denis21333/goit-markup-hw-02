@@ -11,12 +11,16 @@
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
     font-family: var(--prinary-font-family);
+    letter-spacing: 0.03em;
   }
 
-  ul{
+  .list{
     list-style: none;
    }
  
+   .link{
+     text-decoration: none;
+   }
 
 /* Шапка проекта Webstudio*/
 .logo-color{
@@ -28,6 +32,9 @@ color: var( --accent-color);
   font-family: "Raleway", sant-serif;
   font-weight: bold;
 } 
+.footer-logo{
+  color: var(--primary-bg-color);
+}
 
 .site-nav .site-link.current {
     color: var(--accent-color);
@@ -73,6 +80,14 @@ color: var( --accent-color);
  color: var(--secondary-text-color);
  
 }
+.title-features{
+font-family: Roboto;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+color: var(--secondary-text-color);
+}
 
 
 /* cекция */
@@ -87,13 +102,17 @@ color: var( --accent-color);
 .team-list .title {
     color: var(--secondary-text-color);
   }
+
+  .team-section{
+    background-color: #F5F4FA;
+  }
   /* Футер */
  .footer{
 background-color:#2F303A; ;
 }
 
   .footer-link {
-    color: var(--primary-text-color);
+    color: var(--primary-bg-color);
   }
   
   .footer-link:hover,
@@ -124,6 +143,15 @@ background-color:#2F303A; ;
     background-color: var(--accent-color) ;
   }
   
+.work-title{
+font-family: Roboto;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color:var(--secondary-text-color);
+}
+
 /* оформление текста */
   .hero-title {
 font-family: var(--prinary-font-family);   
@@ -134,7 +162,8 @@ color: #FFFFFF;
 }
 
 .hero {
-  background-color: #2F303A;;
+  background-color: #2F303A;
+  text-align: center;
 }
 
 .title {
@@ -144,3 +173,8 @@ color: #FFFFFF;
 .profession {
   text-align: center
 }
+.footer{
+  background-color: #2F303A;
+}
+
+.
