@@ -72,6 +72,8 @@ color: var( --accent-color);
   .button:focus{
     background-color: #188ce8;
   }
+  
+
 
   /* секция будушего */
   
@@ -153,18 +155,19 @@ color:var(--secondary-text-color);
 }
 
 /* оформление текста */
-  .hero-title {
-font-family: var(--prinary-font-family);   
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-color: #FFFFFF;
-}
-
-.hero {
-  background-color: #2F303A;
+.hero-title {
+  font-family: var(--prinary-font-family);   
+  font-size: 44px;
+  line-height: 1.36;
   text-align: center;
-}
+  color: #FFFFFF;
+  }
+  
+  .hero {
+    background-color: #2F303A;
+    text-align: center;
+  }
+
 
 .title {
   text-align: center
